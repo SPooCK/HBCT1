@@ -1,0 +1,28 @@
+{
+  "name": "token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "@truffle/hdwallet-provider": "^1.4.2",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "chai": "^4.3.4",
+    "chai-bignumber": "^3.0.0",
+    "mocha-logger": "^1.0.7",
+    "openzeppelin-contracts": "^4.0.0",
+    "truffle-contract-size": "^2.0.1",
+    "web3-provider-engine": "^16.0.3"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
